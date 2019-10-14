@@ -19,10 +19,10 @@ class Window(arcade.Window):
 
         # Call the parent class's init function
         super().__init__(width, height, title)
+        file_path 
 
-        # Make the mouse disappear when it is over the window.
-        # So we just see our object, not the pointer.
-        self.set_mouse_visible(False)
+        
+        self.set_mouse_visible(True)
 
         arcade.set_background_color(open_color.black)
 
